@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OnlyFans</title>
+    <link
+      rel="icon"
+      href="assets/images/logo/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Remove css to a separate file later -->
+    <style>
+      /* Set a custom height for the first row */
+      .first-grid {
+        height: 60vh; /* 60% of the viewport height */
+      }
+      /* Custom styles for the left column container. */
+      /* add an image as bg later */
+      .custom-container {
+        position: relative;
+        height: 75%;
+        width: 55%;
+        left: 45%;
+        top: 20%;
+      }
+      /* Style for the image */
+      .custom-image {
+        width: 100%;
+        height: auto;
+      }
+      /* Style for the text below the image */
+      .custom-text {
+        position: absolute;
+        width: 100%;
+        left: 35px;
+        color: white;
+        font-size: 2em;
+        font-family: Roboto, sans-serif;
+      }
+      /* Custom background color */
+      .bg-custom-blue {
+        background-color: #00a5df;
+      }
+
+      .small-border {
+        border-bottom: 1px solid rgba(138, 150, 163, 0.25);
+      }
+
+      .second-grid {
+        background-color: #f6f7f8;
+        height: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- First Row -->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Two equal columns in the first row -->
+        <div class="col-md-6 first-grid bg-custom-blue">
+          <!-- Content for the left column -->
+          <!-- Left Column -->
+          <div class="custom-container">
+            <!-- Image -->
+            <img
+              src="assets/images/logo/logo-only_thighs-white-nobg.png"
+              alt="Sample Image"
+              class="custom-image"
+            />
+            <!-- Text below the image -->
+            <div class="custom-text">
+              Sign up to support your <br />
+              favorite creators
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 first-grid small-border">
+          <!-- Content for the right column -->
+          Right Column
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="container-fluid second-grid">
+      <div class="row">
+        <!-- Column that takes up the rest of the page -->
+        <div class="col-md-12">
+          <!-- Content for the second row -->
+          Second Row - Rest of the Page
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
