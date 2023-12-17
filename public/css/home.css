@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #00a5df;
+}
+
+/* set a custom height for the first row */
+.first-grid {
+  height: 60vh;
+}
+/* custom styles for the left column container. */
+/* TODO: add an image as bg later */
+.custom-container {
+  position: relative;
+  height: 75%;
+  width: 55%;
+  left: 45%;
+  top: 20%;
+}
+/* style for the image */
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+/* style for the text below the image */
+.hero-text {
+  position: absolute;
+  width: 100%;
+  left: 35px;
+  color: white;
+  font-size: 2em;
+  font-family: Roboto, sans-serif;
+}
+/* custom background color */
+.bg-custom-blue {
+  background-color: var(--primary-color);
+}
+
+/* one pixel border at the bottom */
+.small-border {
+  border-bottom: 1px solid rgba(138, 150, 163, 0.25);
+}
+
+/* login form styling */
+.login-form {
+  padding-top: 10%;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+.right-col {
+  padding: 10px;
+}
+
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.1rem rgba(0, 165, 223, 0.25);
+}
+
+.show-pass-text {
+  font-size: small;
+  color: var(--primary-color);
+  font-style: italic;
+}
+
+/* custom background color for the bottom grid */
+.second-grid {
+  background-color: #f6f7f8;
+  height: 1000px;
+}
